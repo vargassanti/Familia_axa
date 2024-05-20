@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <title>Paykind</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <i class="bx bx-cookie"></i>
+            <h2>Cookies</h2>
+        </header>
+
+        <div class="data">
+            <p>Este sitio web utiliza cookies y dando clic en cualquier lugar de nuestro sitio web, confirmas que tienes
+                más de la edad mínima como ciudadano mayor de edad en tu país de residencia y accedes al uso de cookies
+                y otras tecnologías para tratar datos personales. Utilizamos las cookies, tanto nosotros como nuestros
+                socios de confianza, para mejorar, analizar y personalizar tu experiencia en nuestro grupo empresarial.
+            </p>
+        </div>
+
+        <div class="buttons">
+            <button class="button" id="acceptBtn">Aceptar</button>
+            <button class="button" id="declineBtn">Cancelar</button>
+        </div>
+    </div>
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Familia AxA</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="index.html" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links" id="politicas-link">Politicas</a>
+                </li>
+                <li class="nav__items">
+                    <a href="quienes_somos.html" class="nav__links">¿Quienes somos?</a>
+                </li>
+                <li class="nav__items">
+                    <a href="servicios.html" class="nav__links">Servicios</a>
+                </li>
+                <li class="nav__items">
+                    <a href="trabaja_nosotros.php" class="nav__links">Trabaja aquí</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="close-modal">&times;</span>
+                <h2>Términos y Condiciones</h2>
+                <p>La organización tiene por objeto brindar información a todos los grupos y personas de
+                    valor sobre las actividades que lleva a cabo la entidad. El uso y su contenido está
+                    sujeto a las condiciones de uso al acceder, navegar o usar este medio u otro canal de
+                    interacción de la organización, reconocen que han leído, entendido y se obligan a
+                    cumplir con estos términos y cumplir con todas las leyes y reglamentos aplicables. Si
+                    el Ciudadano - Usuario - Cliente no está de acuerdo con estos términos y condiciones
+                    de uso o con cualquier disposición del actual documento o los demás documentos
+                    complementarios internos, le sugerimos comunicarse por medio de una PQRS o que
+                    se abstenga de acceder o navegar por este Portal.
+                </p>
+                <span class="salto-linea"></span>
+                <p class="titulos_negritos">1. Aceptación de términos.</p>
+                <p>
+                    La prestación del servicio del Portal de la Organización es de carácter libre y gratuito
+                    para los usuarios y se rige por los términos y condiciones que se incluyen en el
+                    presente texto y demás documentos establecidos por la organización, los cuales se
+                    entienden como conocidos y aceptados por los Ciudadano - Usuario – Cliente del sitio,
+                    el uso de los datos personales del usuario se encuentra sujetos a la Política de
+                    tratamiento de información personal.
+                </p>
+                <span class="salto-linea"></span>
+                <p>
+                    La Organización se reserva el derecho de revisar y modificar de manera unilateral
+                    estos términos y condiciones de uso o la información contenida en el portal web en
+                    cualquier momento sin aviso previo, mediante la actualización de este anuncio.
+                    También puede realizar mejoras o cambios en los servicios descritos en este medio
+                    en cualquier momento y sin previo aviso.
+                </p>
+                <span class="salto-linea"></span>
+                <p class="titulos_negritos"> 2. Derechos de propiedad intelectual. </p>
+                <p>
+                    La Organización es titular de todos los derechos sobre el software del portal Web, así
+                    como de los derechos de propiedad industrial e intelectual referidos a los contenidos
+                    que en ella se incluyan, además se reserva todos los derechos de autor, incluidos los
+                    no mencionados en este documento.
+                </p>
+                <span class="salto-linea"></span>
+                <p>
+                    La propiedad intelectual sobre los contenidos del portal Web (textos, gráficos, logos,
+                    animaciones, sonidos y bases de datos, entre otros) o bien hacen parte del patrimonio
+                    exclusivo de la organización o, en su caso, su titularidad es de terceros que
+                    autorizaron el uso de estos en el Sitio Web o es información pública que se rige por
+                    las leyes de acceso a la información pública de la jurisdicción. Los textos y elementos
+                    gráficos que constituyen la página Web, así como su presentación y montaje, o son
+                    titularidad exclusiva de la organización.
+                    Algunos de los materiales de este portal Web pueden estar protegidos por derechos
+                    de autor cuando así sea mencionado en el contenido. Por tanto, cualquier uso no
+                    autorizado, así como el incumplimiento de los términos, condiciones o avisos
+                    contenidos en ella, puede violar la normatividad nacional vigente al respecto.
+                </p>
+                <span class="salto-linea"></span>
+                <p class="titulos_negritos">3. Información y sitios Web de terceros </p>
+                <p>
+                    El Portal de la Organización puede contener enlaces, cookies o acceso a sitios Web y
+                    contenidos de otras personas o entidades pero no se hace responsable de su
+                    contenido, no controla, refrenda ni garantiza el contenido incluido en dichos sitios,
+                    tampoco se responsabiliza del funcionamiento o accesibilidad de las páginas Web
+                    vinculadas; ni sugiere, invita o recomienda la visita a las mismas, por lo que tampoco
+                    será responsable del resultado obtenido, incluidos los cambios o actualizaciones
+                    realizados en el sitio enlazado o la exactitud o integridad de la información que se
+                    proporciona allí.
+                </p>
+                <span class="salto-linea"></span>
+                <p>
+                    En consecuencia, los “Ciudadanos-Usuarios” aceptan que la organización no es
+                    responsable de ningún contenido, enlace asociado, recurso o servicio asociado al sitio
+                    de un tercero, ni será responsable de ninguna pérdida o daño de cualquier tipo que se
+                    derive del uso que se realice de los contenidos de terceros.
+                    El Portal de la Organización proporciona los enlaces para su conveniencia y la
+                    existencia de estos en nuestros sitios web no implica que la Organización apruebe o
+                    mantenga relaciones contractuales vigentes con las Organizaciones o compañías a la
+                    que se enlaza, o a sus productos o servicios y viceversa para las Organizaciones o
+                    compañías que se enlacen a los sitios del portal.
+                </p>
+                <span class="salto-linea"></span>
+                <p class="titulos_negritos"> 4. Aviso Legal. </p>
+                <p>
+                    <strong>1.</strong> La Organización se reserva el derecho de modificar, complementar o suspender
+                    total o parcialmente la aplicación y el contenido que se genere por el uso de la
+                    aplicación.
+                </p>
+                <span class="salto-linea"></span>
+                <p>
+                    <strong>2.</strong> La Organización, se reserva el derecho de cambiar los términos y condiciones
+                    de
+                    Uso en cualquier momento, con vigencia inmediata a partir del momento que se
+                    actualiza la aplicación.
+                </p>
+                <span class="salto-linea"></span>
+                <p>
+                    <strong>3.</strong> Se considerará que los Ciudadanos-Usuario han leído y aceptado los términos
+                    y
+                    condiciones de uso para usar, acceder, descargar, instalar, obtener o brindar
+                    información hacia la aplicación.
+                </p>
+                <span class="salto-linea"></span>
+                <p>
+                    <strong>4.</strong> El Ciudadano - Usuario declara que es consciente de que el contenido
+                    insertado
+                    en
+                    las aplicaciones es de exclusiva responsabilidad de cada una de las entidades que lo
+                    publican.
+                </p>
+                <span class="salto-linea"></span>
+                <p>
+                    <strong>5.</strong> El uso que el Ciudadano - Usuario haga del portal queda bajo su única
+                    responsabilidad se rechaza toda responsabilidad por la disponibilidad, oportunidad,
+                    seguridad y calidad de la aplicación o aplicación relacionada u otros productos,
+                    servicios e información obtenidos a través del portal, no somos responsables de la
+                    precisión o la fiabilidad de cualquier información o consejo transmitido a través de
+                    este.
+                </p>
+                <span class="salto-linea"></span>
+                <p>
+                    <strong>6.</strong> Los sitios vinculados por enlace a la aplicación no están sometidos al
+                    control
+                    de la
+                    Organización, por lo que ésta no se responsabiliza del contenido de sitios vinculados
+                    ni de enlaces incluidos en el portal.
+                </p>
+                <span class="salto-linea"></span>
+                <p class="titulos_negritos"> 5. Deberes y prohibiciones de los ciudadanos - usuarios.</p>
+                <p>
+                    El Ciudadano - Usuario se obliga a no introducir en el portal, información de carácter
+                    ofensivo o agraviante o que contenga amenazas, u otros programas perjudiciales o
+                    mecanismos para captar o distorsionar información contenida en la aplicación.
+                    El Ciudadano - Usuario no podrá cargar, publicar, enviar mensaje de correo
+                    electrónico, transmitir o de otro modo proporcionar contenido ilícito, nocivo, abusivo,
+                    hostil, difamatorio, discriminatorio, vulgar e injurioso, o cargar contenidos que puedan
+                    generar dificultades en la operación del sistema de la página web.
+                    Usuario - ciudadano de abstendrá de realizar declaraciones falsas o de otro modo
+                    erróneas de su vinculación con una persona física o jurídica o almacenar datos
+                    personales o de otros usuarios con los fines descritos como prohibición en el
+                    enunciado anterior.
+                </p>
+                <span class="salto-linea"></span>
+                <p class="titulos_negritos"> 6. Aviso de privacidad.</p>
+                <p>
+                    Al utilizar los servicios del Portal de la Organización, usted reconoce y acepta que
+                    este
+                    portal puede acceder a la información de su cuenta, y preservarla, así como divulgar
+                    cualquier contenido asociado a dicha cuenta, si fuese necesario por razones legales, o
+                    bien si se considera de buena fe que el acceso, la conservación o la divulgación de
+                    dichos datos es razonablemente necesario para:
+                </p>
+                <span class="salto-linea"></span>
+                <p> <strong>A.</strong> cumplir con leyes, regulaciones, procesos legales o solicitudes
+                    gubernamentales
+                    exigibles.
+                </p>
+                <span class="salto-linea"></span>
+                <p>
+                    <strong>B.</strong> aplicar las Condiciones, incluida la investigación de posibles
+                    infracciones de
+                    las mismas.
+                </p>
+                <span class="salto-linea"></span>
+                <p>
+                    <strong>C.</strong> detectar, prevenir o de cualquier modo abordar casos o situaciones
+                    de
+                    fraude,
+                    seguridad o cuestiones técnicas (incluyendo, sin limitarse a ello, el filtro de spam)
+                </p>
+                <span class="salto-linea"></span>
+                <p>
+                    <strong>D.</strong> proteger contra todo daño inminente los derechos, propiedad o
+                    seguridad
+                    de la
+                    Organización sus usuarios y el público en la manera prevista o permitida por la ley.
+                    La Organización informa al Ciudadano–Usuario que la información solicitada y
+                    otorgada de manera libre y voluntaria por el Ciudadano–Usuario tiene como finalidad
+                    llevar el registro de participación ciudadana, el futuro envió de información
+                    relacionada
+                    con el
+                    Portal de la Organización, enviar notificaciones de actualización de este de
+                    acuerdo con los intereses indicados por el usuario al momento de registrarse.
+                    La Organización se reserva el derecho a distribuir el Contenido que usted envíe,
+                    publique o muestre a través de los servicios del Portal web, así como a utilizarlo en
+                    relación con cualquier otro servicio ofrecido por la Organización.
+                </p>
+                <span class="salto-linea"></span>
+                <p>
+                    La Organización, se reserva el derecho de modificar las políticas de Protección de
+                    Datos personales y de Seguridad de la Información a fin de adaptarlas a nuevos
+                    requerimientos legislativos, jurisprudenciales, técnicos o todos aquellos que le
+                    permitan brindar mejores y más oportunos servicios y contenidos informativos, por lo
+                    cual se aconseja revisar estas normas periódicamente. Igualmente, se reserva el derecho
+                    a
+                    rechazar
+                    la admisión, publicación o transmisión
+                    de cualquier contenido a su discreción.
+                </p>
+                <span class="salto-linea"></span>
+                <p class="titulos_negritos"> 7. Ley y jurisdicción aplicable.</p>
+                <p>
+                    Las condiciones generales que regulan el uso del Portal de la Organización se rigen
+                    por las leyes del país en su jurisdicción. 
+                    Cualquier disputa o conflicto que se genere entre el Usuario y la Organización, por el
+                    ingreso y/o uso del portal y de los servicios que allí se prestan, se llevará ante los
+                    jueces solo del país en su jurisdicción y será resuelto de acuerdo con las leyes de su
+                    jurisdicción sin tener efecto el conflicto con otras leyes de otros países o su estado
+                    de
+                    residencia actual. 
+                </p>
+                <span class="salto-linea"></span>
+                <p>
+                    Si, por alguna razón, la corte de la Jurisdicción competente considera inaplicable
+                    alguna cláusula o parte de las Condiciones señaladas en los términos y condiciones
+                    señalados en alguna parte del presente anuncio el resto de las condiciones generales
+                    conservan su fuerza obligatoria, carácter vinculante y continuarán aplicándose en su
+                    total efecto.
+                </p>
+                <span class="salto-linea"></span>
+                <p>
+                    Para cualquier efecto legal o judicial, el lugar de las presentes condiciones es en la
+                    dirección de su sede principal registrado en su registro mercantil principal basándose
+                    en su jurisdicción mediante los procesos internos establecidos por la organización sin
+                    infringir las normas y leyes legales del país de jurisdicción sin sen aplicables o demás
+                    leyes o
+                    normas de otras jurisdicciones , y cualquier controversia que surja de su
+                    interpretación o aplicación se someterá a las autoridades de su país de jurisdicción.
+                </p>
+                <span class="salto-linea"></span>
+                <p class="titulos_negritos"> 8. Reportes Perfil Administrador.</p>
+                <p>
+                    EL perfil administrador en un Marketplace es una parte esencial del sistema, pues el
+                    administrador el encargado de administrar diversas funciones y configuraciones,
+                    acceder a la información necesaria y ejecutarla y transformarla en pro de la necesidad
+                    de clientes y colaboradores.
+                    El perfil administrador generalmente proporciona al área de desarrollo herramientas,
+                    listas de control, para supervisar las operaciones que se presentan en el Marketplace.
+                    Las principales características que deben encontrarse en el perfil administrador son:
+                    El administrador debe tener la facultad de generar todo tipo de informes sin dificultad,
+                    en estos informes deberían ser visibles (tanto en el sistema como la generación de un
+                    Excel) elementos importantes de observación y análisis como con tantas columnas
+                    sean necesarias con la información detallada de cada objeto:
+                </p>
+                <span class="salto-linea"></span>
+                <p>
+                    - Artículos y cantidad vendidos.
+                    <span class="salto-linea"></span>
+                    - Valores Brutos.
+                    <span class="salto-linea"></span>
+                    - Comisiones.
+                    <span class="salto-linea"></span>
+                    - IVA.
+                    <span class="salto-linea"></span>
+                    - Valor de Transporte o Domicilio.
+                    <span class="salto-linea"></span>
+                    - Valor por pagar al cliente Vendedor.
+                    <span class="salto-linea"></span>
+                    - Categorías.
+                    <span class="salto-linea"></span>
+                    - Mayor venta del cliente vendedor.
+                    <span class="salto-linea"></span>
+                    - Zona
+                    <span class="salto-linea"></span>
+                    - Descuentos a clientes vendedores
+                    <span class="salto-linea"></span>
+                    - Margen de ganancia por cliente vendedor.
+                    <span class="salto-linea"></span>
+                    - Medios de pago
+                </p>
+                <span class="salto-linea"></span>
+                <p class="titulos_negritos"> 8.1 Funciones Perfil Administrador.</p>
+                <p>
+                    El perfil administrador debe tener de igual manera la opción de revisar el catálogo
+                    general de productos unificado que indique los datos básicos y la empresa vendedora
+                    (el nombre de la empresa podría ser un enlace de acceso rápido al perfil corporativo).
+                </p>
+                <span class="salto-linea"></span>
+                <p>
+                    El perfil administrador debe tener el permiso / habilidad para suprimir de manera
+                    inmediata elementos en venta que posean contenidos inapropiados, obscenos o que
+                    puedan ofender a alguno de nuestros clientes.
+                </p>
+                <span class="salto-linea"></span>
+                <p>
+                    El perfil administrador debe permitirme generar informes en Excel, que posibiliten
+                    inicialmente la generación de análisis financieros para el área administrativa, contable
+                    y aquellas áreas pertinentes, que ayuden a tomar acción a dediciones
+                    organizacionales y de crecimiento acerca de productos vendidos, alta y baja rotación,
+                    para optimizar la oferta y la demanda.
+                </p>
+                <span class="salto-linea"></span>
+                <p>
+                    El perfil administrador, debe tener acceso a los productos creados por los clientes
+                    vendedores, y así mismo, debe tener la opción de informarle a los clientes vendedores
+                    todo tipo de inconsistencias en la creación de productos publicados para la venta,
+                    como falta de imágenes, descripciones, y poder inhabilitarlos hasta que su registro y
+                    vinculación como producto esté completa. El mensaje opcional para el cliente podría
+                    ser “Tu publicación infringe las políticas internas de la organización por los
+                    siguientes
+                    causales:…”.
+                </p>
+                <span class="salto-linea"></span>
+                <p>
+                    Por otro lado, el perfil administrador podrá tener acceso a consultar y verificar la
+                    base
+                    de datos en general de los vendedores y los clientes finales, sin infringir en la
+                    políticas
+                    de tratamientos de datos e información, con el fin de proporcionar una rápida gestión a
+                    consultas de datos especificos.
+                </p>
+                <span class="salto-linea"></span>
+                <p>
+                    En cuanto a la revisión del perfil de colaboradores, debe tener la posibilidad de
+                    generar informes de repartidores, zonas de alta distribución, repartidores nuevos,
+                    retirados, comisión cobrada a repartidores, repartidores más activos y menos activos.
+                    En cuanto al perfil del cliente, el perfil administrador debe tener la potestad de vetar
+                    a
+                    un cliente que no cumpla con las políticas internas de la organización, que no respete
+                    los procesos internos y que incumpla los pagos (cuando sean en efectivo) o falte al
+                    respeto a la empresa vendedora o al colaborador/repartidor.
+                </p>
+            </div>
+        </div>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">En nuestro equipo, nuestra Familia AxA</h1>
+            <p class="hero__paragraph">Cultivamos la responsabilidad, amabilidad, el compromiso y la excelencia creando
+                los pilares que nos guían hacia un ambiente de trabajo acogedor y profesional. Juntos, creamos
+                experiencias excepcionales.</p>
+            <p>La disciplina es la parte mas importante del Éxito.</p>
+        </section>
+    </header>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">Responsabilidad Social Empresarial</h2>
+            <p class="about__paragraph">Comunicamos el compromiso del grupo con la responsabilidad social y
+                sostenibilidad de las oganizaciones del Grupo AxA. Estas incluyen prácticas éticas, iniciativas
+                ambientales, estandarizacion de comportamientos, actitudes, posturas eticas, empresariales y
+                contribuciones a la comunidad en general.</p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./images/eficiencia.png" class="about__icon">
+                    <h3 class="about__title">Eficiencia</h3>
+                    <p class="about__paragrah">Actuar conforme a una cultura de servicio orientada al logro de
+                        resultados</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/comunicacion.png" class="about__icon">
+                    <h3 class="about__title">Comunicación</h3>
+                    <p class="about__paragrah">Nos basamos en una actitud dispuesta al entendimiento, privilegiando el
+                        escuchar antes de hablar</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/innovacion.jpg" class="about__icon">
+                    <h3 class="about__title">innovación</h3>
+                    <p class="about__paragrah">Satisfacer los requerimientos y necesidades de nuestros clientes,
+                        mediante el impulso a la creatividad</p>
+                </article>
+            </div>
+        </section>
+
+        <main class="services">
+            <div class="services-content">
+                <h2>¿Te gustaria conocer los diferentes servicios que cuenta nuestra Familia AxA?</h2>
+                <div class="services-group">
+                    <a href="#">
+                        <div class="services-1">
+                            <img src="images/mensajeria.jpg" alt="">
+                            <h3>Mensajeria</h3>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="services-1">
+                            <img src="images/tienda-online-1.jpg" alt="">
+                            <h3>Tienda</h3>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="services-1">
+                            <img src="images/turismo.jpg" alt="">
+                            <h3>Turismo</h3>
+                        </div>
+                    </a>
+                </div>
+                <p>
+                    En AxA, te ofrecemos una variedad de servicios diseñados para satisfacer tus necesidades. Desde
+                    soluciones innovadoras hasta atención al cliente excepcional, estamos aquí para ti en cada paso del
+                    camino. ¡Explora nuestras opciones y deja que te sorprendamos!
+                </p>
+                <a href="servicios.html" class="cta">Más informacion</a>
+            </div>
+        </main>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">¿Quienes somos?</h2>
+                    <p class="knowledge__paragraph">Te invitamos a explorar nuestro pasado, presente y futuro mientras
+                        te sumerges en la esencia de lo que nos hace únicos. Descubre cómo hemos superado desafíos,
+                        celebrado triunfos y cultivado una cultura que valora el crecimiento personal y profesional.
+                        <br><br>
+                        ¡Acompáñanos en este viaje y sé parte de nuestra historia en constante evolución! Juntos,
+                        podemos escribir los próximos capítulos de éxito y hacer una diferencia significativa en el
+                        mundo.
+                    </p>
+                    <a href="quienes_somos.html" class="cta">¿Te gustaría conocernos más?</a>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./images/inicio_axa.jpg" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+        <section class="testimony">
+            <h2 class="subtitle1">Reseñas</h2>
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Increíblemente útil y conveniente</h2>
+                        <p class="testimony__review">Este producto ha simplificado mi vida de una manera que nunca
+                            hubiera imaginado. Su conveniencia y utilidad son simplemente sorprendentes. Desde que lo
+                            tengo, hacer las tareas diarias se ha vuelto mucho más fácil y rápido. Deisy Jaramillo.</p>
+                    </div>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Precio justo por un valor inmenso </h2>
+                        <p class="testimony__review">A pesar de su calidad y funcionalidad, el precio de este producto
+                            es muy razonable. Me siento como si estuviera obteniendo mucho más de lo que pagué. Es una
+                            inversión que vale la pena. Carlos Bolívar. </p>
+                    </div>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Atención al cliente excepcional </h2>
+                        <p class="testimony__review">El equipo detrás de estos productos y servicios realmente se
+                            preocupa por sus clientes. Cada vez que he tenido una pregunta o un problema, han estado ahí
+                            para ayudarme de manera rápida y amigable. Su servicio al cliente es ejemplar. Claudia
+                            Castaño.</p>
+                    </div>
+                </section>
+
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Diseño elegante y moderno</h2>
+                        <p class="testimony__review">No solo es este producto y servicio funcional, sino que también es
+                            estéticamente atractivo. Su diseño elegante y moderno sin perder su esencia dinámico y
+                            activo los hacen destacar. Astrid Gomez.</p>
+                    </div>
+                </section>
+
+                <section class="testimony__body" data-id="5">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mejora mi día a día </h2>
+                        <p class="testimony__review">Desde que comencé a utilizar sus servicios y usar sus productos por
+                            medio de la Marketplace, mi vida ha mejorado significativamente. Desde organizar mi tiempo
+                            hasta disfrutar de momentos de ocio, este servicio ha mejorado cada aspecto de mi día a día.
+                            David Gomez Garcia. </p>
+                    </div>
+                </section>
+
+                <section class="testimony__body" data-id="6">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Confiable en todo momento </h2>
+                        <p class="testimony__review">Los productos y servicios son extremadamente confiables. Nunca me
+                            han decepcionado. Puedo contar con ellos para funcionar perfectamente en todo momento, lo
+                            que me brinda tranquilidad y confianza. Sebastian Puerta Castro. </p>
+                    </div>
+                </section>
+
+                <section class="testimony__body" data-id="7">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Simplicidad para mi vida </h2>
+                        <p class="testimony__review">No puedo imaginar mi vida sin conocer del grupo y adquirir con
+                            ellos mis necesidades. Ha simplificado tantas tareas y procesos que ahora me resulta difícil
+                            recordar cómo lo hacía antes. Es realmente una herramienta imprescindible en mi vida. Miguel
+                            Ángel Jimenez. </p>
+                    </div>
+                </section>
+
+                <section class="testimony__body" data-id="8">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Recomendado por todos </h2>
+                        <p class="testimony__review">Todos mis amigos y familiares que han probado este producto están
+                            igualmente impresionados. Es difícil encontrar a alguien que no esté completamente
+                            satisfecho con él. Sin duda, lo recomendaría a cualquiera. Santiago Ocampo Meneses.</p>
+                    </div>
+                </section>
+
+                <section class="testimony__body" data-id="9">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Una experiencia satisfactoria en general </h2>
+                        <p class="testimony__review">En resumen, este Grupo AxA ofrece una experiencia satisfactoria en
+                            todos los aspectos. Desde su calidad y funcionalidad hasta su atención al cliente, todo es
+                            excepcional. Estoy encantado de haberlo descubierto y no puedo esperar para seguir usándolo
+                            en el futuro. Melissa Ramirez. </p>
+                    </div>
+                </section>
+
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+            <p class="questions__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, porro
+                doloribus neque perspiciatis sapiente fuga.</p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Cómo se diferencia este producto/servicio de otros en el mercado?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Nuestros productos/servicios se destacan por dar garantía
+                            garantizada, productos que cumplen su ciclo de uso lo mas prolongado posible con buen uso de
+                            parte del cliente y servicios con valor agregado desde la solicitud de un servicio hasta su
+                            culminación en posventa.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Cuáles son los beneficios clave que ofrece este producto/servicio?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Al adquirir este producto/servicio, los clientes pueden disfrutar de
+                            trato cordial por parte de nuestro personal interno y externo, asesoría en inquietudes
+                            cotidianas y sobre todo, recibir un trato cordial y agradable a nuestros usuarios, añadiendo
+                            beneficios como ahorro de tiempo, aumento de la productividad, mejora de la calidad de vida,
+                            etc.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Hay algún tipo de garantía o política de devolución asociada con
+                            este producto/servicio?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Sí, ofrecemos procesos metódicos mediante políticas internas sobre
+                            garantías o políticas de devolución, como duración, alcances de productos y servicios,
+                            condiciones, responsabilidades y demás para asegurar la satisfacción del cliente.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Hay opciones de contacto disponibles para este producto/servicio?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Sí, ofrecemos nuestras redes sociales, canales de comunicación
+                            directa y nuestro sitio Web para adaptarnos a las necesidades individuales de cada cliente.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Ofrecen soporte técnico o atención al cliente después de la
+                            compra?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Sí, nuestro equipo de soporte técnico está disponible para soporte
+                            postventa, como horarios de atención, canales de comunicación, para resolver cualquier duda
+                            o problema que pueda surgir.</p>
+                    </div>
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <h2 class="titulo_carrusel"> Algunos de nuestros clientes </h2>
+    <div class="Carousel3">
+        <div class="slick-list" id="slick-list">
+            <button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev"
+                onclick="app.processingButton(event)">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left"
+                    class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 320 512">
+                    <path fill="currentColor"
+                        d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z">
+                    </path>
+                </svg>
+            </button>
+            <div class="slick-track" id="track">
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente1.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente2.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente3.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente4.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente5.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente6.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente7.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente8.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente9.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente10.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente11.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente12.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente13.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente14.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente15.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente16.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente17.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente18.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente19.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente20.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente21.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente22.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente23.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente24.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente25.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente26.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente27.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente28.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente29.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente30.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente31.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente32.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente33.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente34.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente35.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente36.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <picture>
+                            <img src="images/Imagenes_Clientes/cliente37.png" />
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <button class="slick-arrow slick-next" id="button-next" data-button="button-next"
+                onclick="app.processingButton(event)">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                    class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 320 512">
+                    <path fill="currentColor"
+                        d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+                    </path>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <div class="pie-pagina ">
+        <div class="contenedor-piepagina contenedor">
+            <div class="info">
+                <h3>Dirección</h3>
+                <p>23.Roma Italia 75012</p>
+            </div>
+            <div class="info">
+                <h3>Días especiales</h3>
+                <p>Sabados y Jueves 7am - 11pm</p>
+                <p>+3123410921</p>
+            </div>
+            <div class="info">
+                <h3>Horarios</h3>
+                <p>Lunes - Domingo 7am - 11pm</p>
+                <div class="redes-sociales redes-pie">
+                    <p><i class='bx bxl-whatsapp'></i></p>
+                    <p>
+                        <a href="https://www.facebook.com/Paykind.com.co" target="_blank"><i
+                                class='bx bxl-facebook'></i>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://www.instagram.com/paykind/" target="_blank"><i class='bx bxl-instagram'></i>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://www.youtube.com/channel/UCBBk3vikC8WSmOs8-1ahIhA" target="_blank"><i
+                                class='bx bxl-youtube'></i></a>
+                    </p>
+                    <p>
+                        <a
+                            href="mailto:servicioalclientepaykind@gmail.com?subject=Asunto del correo&body=Cuerpo del correo"><i
+                                class='bx bx-envelope'></i></a>
+                    </p>
+                </div>
+            </div>
+            <div class="info">
+                <h3>Noticias</h3>
+                <p>suscribete para recibir más noticias</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Familia AxA 2024</p>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/carrusel.js"></script>
+    <script src="./js/politicas.js"></script>
+    <script src="js/cookies.js" defer></script>
+</body>
+
+</html>
